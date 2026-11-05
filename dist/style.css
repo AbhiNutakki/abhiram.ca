@@ -21,3 +21,19 @@ h1{margin:0;font:inherit}
 .contact{font-size:13px;margin:14px 0 0}
 
 .art-gallery{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}.art-gallery a{display:block;line-height:0}.art-gallery img{display:block;width:100%;height:auto;background:#f6f5f1}.art-gallery a:hover{opacity:.92}@media(max-width:540px){.art-gallery{grid-template-columns:1fr;gap:24px}}
+
+/* Lighting follows the ecosystem clock; foreground contrast follows the sky. */
+body{background:var(--cycle-bg,#fff)}
+a{text-decoration-color:var(--cycle-link,#a4a89d)}
+nav a,h2,.page-intro,.projects-list article>p,.project-detail p,.job p,.job-heading>span,.quiet,.footer-meta,.year,.ecosystem-footer,.eco-inline-info,#eco-mini,.eco-inline-controls button{color:var(--cycle-muted,#777a73)}
+nav a[aria-current=page]{color:var(--ink)}
+nav a[aria-current=page]:after{background:var(--cycle-link,#6a7760)}
+.yellow{background:var(--cycle-yellow,#fbf4bc)}.lavender{background:var(--cycle-lavender,#e9def7)}.blue{background:var(--cycle-blue,#dfeaf8)}.rose{background:var(--cycle-rose,#f3dfe9)}
+ul,.project-detail,.eco-counts{border-color:var(--line)}
+#ecosystem-bg{opacity:var(--cycle-canvas-opacity,.42)}
+html[data-night="true"] .brand-icon[src$="github.svg"],html[data-night="true"] .brand-icon[src$="resume-pdf.svg"]{filter:invert(1)}
+a:hover,.project-toggle:hover{color:var(--ink)}
+.skip{background:var(--cycle-bg,#fff)}
+@media(max-width:760px){#ecosystem-bg{opacity:calc(var(--cycle-canvas-opacity,.42) * .72)}}
+
+.yellow{color:var(--cycle-yellow-ink,var(--ink))}.lavender{color:var(--cycle-lavender-ink,var(--ink))}.blue{color:var(--cycle-blue-ink,var(--ink))}.rose{color:var(--cycle-rose-ink,var(--ink))}.highlight:hover{color:inherit}

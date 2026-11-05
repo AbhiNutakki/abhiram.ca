@@ -2,7 +2,7 @@
 
 My personal portfolio, live at [abhiram.ca](https://abhiram.ca).
 
-Built with HTML, CSS, and vanilla JavaScript. A small grid-based ecosystem runs in the background, simulating plants, rabbits, foxes, fungi, weather, and nutrient recycling.
+Built with HTML, CSS, and vanilla JavaScript. A small grid-based ecosystem runs in the background, simulating plants, rabbits, foxes, fungi, weather, and nutrient recycling. The page lighting follows a 45-second day/night cycle, with a pixel sun, moon, and stars. Pause, speed, and reset controls share the simulation clock.
 
 ## Run locally
 
