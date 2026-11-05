@@ -37,3 +37,6 @@ a:hover,.project-toggle:hover{color:var(--ink)}
 @media(max-width:760px){#ecosystem-bg{opacity:calc(var(--cycle-canvas-opacity,.42) * .72)}}
 
 .yellow{color:var(--cycle-yellow-ink,var(--ink))}.lavender{color:var(--cycle-lavender-ink,var(--ink))}.blue{color:var(--cycle-blue-ink,var(--ink))}.rose{color:var(--cycle-rose-ink,var(--ink))}.highlight:hover{color:inherit}
+
+.eco-inline-info .eco-counts b,.plus{color:var(--cycle-muted,#8a927e)}
+html[data-night="true"] .brand-icon[src$="linkedin.svg"]{filter:invert(1)}
