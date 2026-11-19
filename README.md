@@ -22,7 +22,6 @@ Open <http://localhost:8000>.
 - `dist/ecosystem-engine.js` — simulation logic
 - `dist/ecosystem.js` — rendering and ecosystem controls
 - `dist/assets/` — site icons and logos
-- `dist/resume.pdf` — résumé
 
 ## Hosting
 
